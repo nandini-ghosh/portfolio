@@ -2,6 +2,10 @@ body {
     background-color: antiquewhite;
 }
 
+li {
+  list-style-type: none;
+}
+
 .nav {
   padding: 8%;
   width: 12%;
