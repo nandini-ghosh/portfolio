@@ -17,6 +17,7 @@ li {
 
 .gallery {
   padding: 1%;
-  width: 75%;
+  width: 50%;
   display: inline-block;
+  float: left;
 }
