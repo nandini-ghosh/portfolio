@@ -1,9 +1,10 @@
 body {
-    background-color: antiquewhite;
+    background-color: #837C84;
 }
 
 p {
   margin-block-start: 0;
+  color: #F5DDF5;
 }
 
 li {
@@ -20,6 +21,11 @@ ul {
 
 a {
   text-decoration: none;
+  color: #F5DDF5;
+}
+
+a:hover {
+  color: #F595F5;
 }
 
 .nav {
