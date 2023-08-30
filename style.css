@@ -42,14 +42,14 @@ a:hover {
 
 .name-nav {
   font-family: "utopia-std", serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: italic;
   font-size: 30px;
 }
 
 .menu {
   font-family: "source-sans-pro", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 15px;
 }
