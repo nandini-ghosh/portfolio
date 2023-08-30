@@ -67,3 +67,7 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.project-cover {
+  width: 250px;
+}
