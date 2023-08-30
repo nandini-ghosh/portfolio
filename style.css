@@ -28,9 +28,16 @@ ul {
 
 .name-nav {
   font-family: "utopia-std", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.menu {
+  font-family: "source-sans-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .gallery {
