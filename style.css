@@ -1,10 +1,10 @@
 body {
-    background-color: #837C84;
+    background-color: #665f67;
 }
 
 p {
   margin-block-start: 0;
-  color: #F5DDF5;
+  color: #f9e6f9;
 }
 
 li {
@@ -21,7 +21,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #F5DDF5;
+  color: #f9e6f9;
 }
 
 a:hover {
@@ -42,14 +42,15 @@ a:hover {
 
 .name-nav {
   font-family: "utopia-std", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .menu {
   font-family: "source-sans-pro", sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
   font-size: 15px;
 }
@@ -58,4 +59,7 @@ a:hover {
   padding: 8%;
   width: 50%;
   float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
