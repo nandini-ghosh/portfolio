@@ -2,8 +2,16 @@ body {
     background-color: antiquewhite;
 }
 
+p {
+  margin-block-start: 0;
+}
+
 li {
   list-style-type: none;
+}
+
+ul {
+  padding-inline-start: 0px;
 }
 
 .nav {
@@ -11,12 +19,16 @@ li {
   width: 12%;
   height: 100%;
   display: inline-block;
-  position: fixed;
+  float: left;
 
 }
 
+.fixed-nav {
+  position: fixed;
+}
+
 .gallery {
-  padding: 1%;
+  padding: 8%;
   width: 50%;
   display: inline-block;
   float: left;
