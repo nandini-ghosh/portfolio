@@ -56,9 +56,13 @@ a:hover {
 }
 
 .gallery {
-  padding: 8%;
+  padding-top: 8%;
   width: 50%;
   float: left;
+  display: inline-block;
+}
+
+.flex-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
