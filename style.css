@@ -10,8 +10,16 @@ li {
   list-style-type: none;
 }
 
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 ul {
   padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
