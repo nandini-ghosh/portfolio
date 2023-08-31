@@ -71,3 +71,7 @@ a:hover {
 .project-cover {
   width: 250px;
 }
+
+.thumbnails {
+  padding: 10px;
+}
