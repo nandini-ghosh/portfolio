@@ -8,8 +8,19 @@ body {
 }
 
 p {
+  font-family: "Avenir", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
   margin-block-start: 0;
   color: #f9e6f9;
+}
+
+b {
+  font-family: "Avenir", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
 }
 
 li {
@@ -118,6 +129,16 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.project-image {
+  padding-bottom: 10px;
+}
+
+.project-description {
+  font-family: "Avenir", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
 
 @media screen and (max-width: 991px) {
   .name-nav {
