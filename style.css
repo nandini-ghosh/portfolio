@@ -69,6 +69,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .project-cover {
@@ -76,7 +77,24 @@ a:hover {
 }
 
 .thumbnails {
-  padding: 10px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4a5741;
+}
+
+.thumbnails:hover .overlay {
+  opacity: 1;
 }
 
 @media screen and (max-width: 991px) {
