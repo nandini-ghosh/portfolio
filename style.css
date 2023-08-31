@@ -112,6 +112,13 @@ a:hover {
   opacity: 1;
 }
 
+.project-images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
 @media screen and (max-width: 991px) {
   .name-nav {
     font-size: 60px;
