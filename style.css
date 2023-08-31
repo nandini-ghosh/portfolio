@@ -61,6 +61,7 @@ a:hover {
 
 .gallery {
   padding-top: 8%;
+  padding-bottom: 8%;
   display: flex;
 }
 
@@ -76,4 +77,14 @@ a:hover {
 
 .thumbnails {
   padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .name-nav {
+    font-size: 60px;
+  }
+
+  .menu {
+    font-size: 30px;
+  }
 }
