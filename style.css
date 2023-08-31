@@ -59,13 +59,13 @@ a:hover {
   font-size: 15px;
 }
 
-.gallery {
+.content {
   padding-top: 8%;
   padding-bottom: 8%;
   display: flex;
 }
 
-.flex-container {
+.flex-container-gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
