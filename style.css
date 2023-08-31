@@ -90,14 +90,14 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #F595F5;
+  background-color: #f9e6f9;
 }
 
 .text {
-  color: white;
-  font-family: "Avenir", sans-serif;
+  color: #665f67;
+  font-family: "utopia-std", serif;
   font-weight: 600;
-  font-style: bold;
+  font-style: italic;
   font-size: 20px;
   position: absolute;
   top: 50%;
