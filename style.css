@@ -62,8 +62,7 @@ a:hover {
 
 .gallery {
   padding-top: 8%;
-  float: left;
-  display: inline-block;
+  display: flex;
 }
 
 .flex-container {
