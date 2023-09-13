@@ -139,6 +139,8 @@ a:hover {
   font-style: normal;
   font-size: 15px;
   color: #f9e6f9;
+  width: 700px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
